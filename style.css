@@ -41,7 +41,7 @@ body {
 }
 
 #b {
-    background-color: hsl(150, 100%, 66%);;
+    background-color: hsl(150, 100%, 66%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,6 +50,11 @@ body {
     width: 50px;
     position: absolute;
     bottom: 21.5%;
+}
+
+#b:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 25px 3px hsl(150, 100%, 66%);
 }
 
 .attribution { 
